@@ -45,7 +45,7 @@ public class Tema4sentenciaslogicas {
         System.out.println("----------------");
         System.out.println("");
         //   otro ejemplo
-        System.out.println("Ingresa un numeropara saber si es positivo, negativo");   
+        System.out.println("Ingresa un numero para saber si es positivo, negativo");   
        int numero=sc.nextInt();
        if (numero>0){
            System.out.println("El numero "+numero+" es positivo");
@@ -55,6 +55,20 @@ public class Tema4sentenciaslogicas {
         }else{
             System.out.println("El numero es el cero");
         }
+       
+       //if-else-if  utilizando strings
+       String curso="Mateamticas";
+       if(curso.equals("Biología")){
+           System.out.println("El registro es al curso de Biología");
+       }
+       else if(curso.equals("Algegra")){
+           System.out.println("El registro es al curso de Algegra");
+       }
+       else if(curso.equals("Teatro")){
+           System.out.println("El registro es al curso de Teatro");
+       }else{
+           System.out.println("Curso no encontrado");
+       }
         System.out.println("Codigo creado por Nancy CA");
           
     }
