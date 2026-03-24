@@ -54,12 +54,8 @@ public class Tema4sentenciaslogicas {
        
         }else{
             System.out.println("El numero es el cero");
-}
-        
-       
-       
-      
-        
-        
+        }
+        System.out.println("Codigo creado por Nancy CA");
+          
     }
 }
